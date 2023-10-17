@@ -41,7 +41,7 @@ Once a 3.10 or higher version of python is in the PATH, follow these instruction
 
 ```bash
 git clone https://github.com/ystoll/hide_and_seek
-cd hide-and-seek
+cd hide_and_seek
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
