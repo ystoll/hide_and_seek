@@ -143,7 +143,7 @@ python evaluate.py  models/best_models/level4/DQN_TS_map_random_freq_4_step_leve
 will evaluate the agent on levels 3 and 5. 1000 episodes will be played per level. A per level evaluation as well as agregated results will be displayed.
 
 
-# Training and evaluating a batch agents.
+# Training and evaluating a batch of agents.
 
 All commands to train and evaluate a batch of agents are in the script/start_grid.sh script.
 Code should be self explanatory.
