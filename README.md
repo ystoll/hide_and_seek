@@ -206,8 +206,8 @@ This list is presented by descending order of priority:
 2. Training
 
   * The grid search we used was quite **naive**. More efficient approaches exist to tune the hyperparameter space. One can for instance use Bayesian approaches. The recommended library to use with Stable Baseline 3 seems to be [Optuna](https://optuna.org/).This should definitely be explored in the future.
-  * Callbacks should be used during training to have more control over the training procedures [callbacks](https://stable-baselines3.readthedocs.io/en/master/guide/callbacks.html).
-  * Double Q Networks might be interesting. Also not supported yet by the stable baseline library, an issue is open [double q networks](https://github.com/DLR-RM/stable-baselines3/issues/622) hoping for future integration (see also this [notebook](https://colab.research.google.com/github/Stable-Baselines-Team/rl-colab-notebooks/blob/sb3/dqn_sb3.ipynb)).
+  * Callbacks should be used during training to have more control over the training procedures ([callbacks](https://stable-baselines3.readthedocs.io/en/master/guide/callbacks.html)).
+  * Double Q Networks might be interesting. Also not supported yet by the stable baseline library, an issue is open ([double q networks](https://github.com/DLR-RM/stable-baselines3/issues/622)) hoping for future integration (see also this [notebook](https://colab.research.google.com/github/Stable-Baselines-Team/rl-colab-notebooks/blob/sb3/dqn_sb3.ipynb)).
   * There is still room for improving our random map generator. For instance, this method works well only with 12x12 maps.
 
 
