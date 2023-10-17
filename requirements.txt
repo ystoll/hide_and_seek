@@ -1,0 +1,6 @@
+gymnasium
+numpy
+opencv_python
+stable_baselines3
+stable-baselines3[extra]
+tensorboard

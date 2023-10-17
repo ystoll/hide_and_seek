@@ -1,0 +1,9 @@
+Model name: DQN_TS_map_random_freq_4_step_level_3_4_5_lr_0.001_expl_0.01_explfrac_0.7_gamma_0.8_LongViewObservation_view_size_5
+Observation type: LongViewObservation(view_size=5)
+Map trained on: random
+Number of timesteps: 250000
+Learning rate: 0.001
+Learning starts: 50000
+Exploration: 0.01
+Log interval: 4
+Progress bar: True
